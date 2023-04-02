@@ -14,18 +14,44 @@ body {
   margin: 0 auto;
 }
 
-header {
-  display: flex;
-  background-color: whitesmoke;
-  width: 100%;
-  align-items: center;
-  padding: 5px 30px;
+hr {
+  border: none;
+  background-color: black;
+  height: 1px;
+  margin-bottom: 15px;
 }
 
-#site-logo img {
-  height: 5vh;
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  width: 100%;
+  padding: 20px 30px;
 }
 
 #site-title {
   font-size: 5vh;
+}
+
+#site-title img {
+  height: 5vh;
+}
+
+nav a {
+  text-decoration: none;
+  border: 1px solid transparent;
+}
+
+nav a:hover {
+  border: 1px dotted black;
+}
+
+nav li {
+  display: inline;
+  padding: 0 10px;
+}
+
+nav li::before,
+nav li::after {
+  content: '/';
 }
