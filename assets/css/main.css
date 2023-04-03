@@ -60,50 +60,60 @@ nav li::after {
 }
 
 main {
-  margin: 10px 0;
-  background-color: whitesmoke;
-  display: flex;
-  gap: 10px;
+  margin: 1em 0;
 }
 
 main #content {
-  max-width: 80%;
   background-color: white;
   box-shadow: 0px 0px 2px 1px;
   padding: 10px;
+  display: none;
 }
 
 main aside {
-  width: 100%;
-  background-color: white;
-  box-shadow: 0px 0px 2px 1px;
-  padding: 10px;
+  display: flex;
+  gap: 1em;
 }
 
-main aside #title {
+main aside section {
+  width: 100%;
+  background-color: white;
+  /* box-shadow: 0px 0px 1px 1px; */
+  background-color: whitesmoke;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+main aside .title {
   text-align: center;
   border-bottom: 1px solid black;
   font-weight: bolder;
 }
 
-main aside #latest {
+main aside .content {
   font-size: small;
 }
 
-main aside #latest a {
+main aside .content a {
   text-decoration: none;
 }
 
-main aside #latest ol {
+main aside .content ol {
   list-style-type: none;
 }
 
-main aside #latest ol li::before {
+main aside .content ol li::before {
   content: '►';
 }
 
-main aside #latest .month {
+main aside .content .month {
   font-weight: 700;
+}
+
+article p {
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: small;
 }
 
 @media screen and (max-width: 700px) {
