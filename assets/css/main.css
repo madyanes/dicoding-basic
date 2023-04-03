@@ -41,6 +41,7 @@ header {
 }
 
 nav a {
+  font-size: small;
   text-decoration: none;
   border: 1px solid transparent;
 }
