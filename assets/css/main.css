@@ -12,6 +12,7 @@
 body {
   width: 80%;
   margin: 0 auto;
+  background-color: #FAEDCD;
 }
 
 .container {
@@ -30,7 +31,7 @@ hr {
 header {
   display: flex;
   flex-direction: column;
-  background-color: white !important;
+  background-color: #FEFAE0 !important;
   box-shadow: 0px 0px 1px 1px;
 }
 
@@ -131,7 +132,7 @@ article p {
 
 #profile #identity {
   flex-basis: 40%;
-  background-color: #27E1C1;
+  background-color: #CCD5AE;
 }
 
 #profile #identity ul {
@@ -146,11 +147,11 @@ article p {
 
 #profile #words {
   flex-basis: 60%;
-  background-color: #27E1C1;
+  background-color: #CCD5AE;
 }
 
 footer {
-  background-color: #0EA293;
+  background-color: #FEFAE0;
   margin-top: 1em;
   text-align: center;
 }
