@@ -12,7 +12,7 @@
 body {
   width: 80%;
   margin: 0 auto;
-  background-color: #FAEDCD;
+  background-color: #FFFBE9;
 }
 
 .container {
@@ -31,7 +31,7 @@ hr {
 header {
   display: flex;
   flex-direction: column;
-  background-color: #FEFAE0 !important;
+  background-color: #F4EAD5 !important;
   box-shadow: 0px 0px 1px 1px;
 }
 
@@ -132,7 +132,7 @@ article p {
 
 #profile #identity {
   flex-basis: 40%;
-  background-color: #CCD5AE;
+  background-color: #DAE2B6;
 }
 
 #profile #identity ul {
@@ -147,11 +147,33 @@ article p {
 
 #profile #words {
   flex-basis: 60%;
-  background-color: #CCD5AE;
+  background-color: #DAE2B6;
 }
 
+#service {
+  margin-top: 1em;
+  display: flex;
+  gap: 1em;
+}
+
+#service img {
+  width: 70%;
+  box-shadow: 0px 0px 1px 1px;
+}
+
+#service div {
+  flex-grow: 1;
+  flex-basis: 0;
+  background-color: #CCD6A6;
+  text-align: center;
+}
+
+/* #service div .content {
+  background-color: aqua;
+} */
+
 footer {
-  background-color: #FEFAE0;
+  background-color: #F4EAD5;
   margin-top: 1em;
   text-align: center;
 }
