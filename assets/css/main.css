@@ -99,6 +99,10 @@ main aside section {
   margin-bottom: 10px;
 }
 
+main aside section:last-child {
+  margin-bottom: 0;
+}
+
 main aside .title {
   text-align: center;
   border-bottom: 1px solid black;
@@ -230,9 +234,6 @@ footer {
   #site-title img {
     height: 3vh;
   }
-  nav {
-    display: none;
-  }
 
   main {
     flex-direction: column;
@@ -240,11 +241,15 @@ footer {
 
   main #content {
     width: 100%;
-    order: 1
+    order: 100;
   }
 
   main > aside {
     width: 100%;
+  }
+
+  main > aside section:first-child {
+    margin-bottom: 1em;
   }
 
   #profile {
