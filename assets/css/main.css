@@ -100,9 +100,10 @@ main #content p:last-child {
   text-align: right;
 }
 
-main aside#latest {
+main aside#related {
   flex-basis: 28%;
   align-self: flex-start;
+  order: 0;
 }
 
 main aside div {
@@ -293,6 +294,10 @@ footer {
     flex-direction: column;
   }
 
+  main #content {
+    order: 1;
+  }
+
   main > aside {
     width: 100%;
   }
@@ -319,10 +324,12 @@ footer {
 
   main #content {
     width: 100%;
+    order: 1;
   }
 
   main > aside {
     width: 100%;
+    order: 100;
   }
 
   main > aside section:first-child {
