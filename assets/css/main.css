@@ -76,6 +76,12 @@ main #content {
   width: 70%;
 }
 
+main #content p {
+  padding-top: 0.5em;
+  line-height: 2em;
+  font-size: medium;
+}
+
 main aside {
   width: 30%;
   align-self: flex-start;
