@@ -155,6 +155,16 @@ article p {
   background-color: #DAE2B6;
 }
 
+#profile #words ul {
+  list-style-type: '\00203A';
+  text-indent: 2em;
+}
+
+#profile #words ul li span {
+  position: relative;
+  left: -1em;
+}
+
 #service {
   margin-top: 1em;
   display: flex;
