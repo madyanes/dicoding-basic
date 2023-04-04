@@ -247,6 +247,25 @@ footer {
   text-align: center;
 }
 
+#top {
+  display: none;
+  text-decoration: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  color: black;
+}
+
+#top div {
+  background-color: #CCD6A6;
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-size: smaller;
+  font-weight: 700;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
 @media screen and (max-width: 700px) {
   body {
     width: 95%;
