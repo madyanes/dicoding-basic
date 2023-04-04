@@ -20,30 +20,28 @@
     </div>
     <nav>
       <ul>
-        <a href="#content">
-          <li>
+        <li>
+          <a href="#content">
             Jurnal
-          </li>
-        </a>
-        <a href="#profile">
-          <li>
-            Profil Penulis
-          </li>
-        </a>
-        <a href="#service">
-          <li>
+          </a>
+        </li>
+        <li>
+          <a href="#profile">
+              Profil Penulis
+          </a>
+        </li>
+        <li>
+          <a href="#service">
             Jasa
-          </li>
-        </a>
+          </a>
+        </li>
       </ul>
     </nav>
   </header>
   <main>
     <div id="content">
       <article id="article-1">
-        <header class="content-title">
-          <h1>#1 Tulisan dan Harapan</h1>
-        </header>
+        <h1 class="header">#1 Tulisan dan Harapan</h1>
         <p>
           Aku ingin menulis sesuatu yang bisa bermanfaat, baik untuk diriku sendiri atau untuk orang lain. Hanya saja, aku tak tahu harus mulai dari mana. Dalam benakku, menulis adalah kegiatan yang dilakukan oleh mereka yang memiliki keahlian atau telah banyak mendapatkan pengalaman. Sedangkan aku? Tidak punya keahlian dalam hal apapun, inilah masalahnya. Sudah berulang kali aku mencoba mengubur keinginan untuk menulis. Tapi pada saat tertentu, tiada angin tiada hujan, keinginan ini kembali menghantuiku.
         </p>
@@ -60,87 +58,83 @@
         <p class="published">Jum'at, 24 Maret 2023</p>
       </article>
     </div>
-    <aside>
-      <div>
-        <section>
-          <div class="title">Tulisan Terbaru</div>
-          <div class="content">
-            <div class="month">Maret, 2023</div>
-            <ol>
-              <a href="#article-1">
-                <li>Tulisan dan Harapan [24 Maret]</li>
-              </a>
-            </ul>
-          </div>
-        </section>
-        <section>
-          <div class="title">Tulisan Terpopuler</div>
-          <div class="content">
-            <div class="month">Maret, 2023</div>
-            <ol>
-              <a href="#article-1">
-                <li>Tulisan dan Harapan [24 Maret]</li>
-              </a>
-            </ul>
-          </div>
-        </section>
+    <aside id="latest">
+      <section>
+        <div class="title">Tulisan Terbaru</div>
+        <div class="content">
+          <div class="month">Maret, 2023</div>
+          <ol>
+            <a href="#article-1">
+              <li>Tulisan dan Harapan [24 Maret]</li>
+            </a>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <div class="title">Tulisan Terpopuler</div>
+        <div class="content">
+          <div class="month">Maret, 2023</div>
+          <ol>
+            <a href="#article-1">
+              <li>Tulisan dan Harapan [24 Maret]</li>
+            </a>
+          </ul>
+        </div>
+      </section>
+    </aside>
+    <aside id="profile">
+      <div id="identity" class="container">
+        <img src="assets/images/foto.jpg" alt="Foto Profil">
+        <p>
+          <strong>Madyan Eka Septian</strong>
+        </p>
+        <p>
+          <em><small>Full-stack Website Developer</small></em>
+        </p>
       </div>
+      <article id="words" class="container">
+        <p>Assalamu'alaikum warohmatullohi wabarokatuh.</p>
+        <p>Halo, semuanya! Namaku Madyan, bisa dipanggil Ian, saat ini sedang berusaha menjadi seorang Full-stack Website Developer, disamping pekerjaanku sebagai penjaga toko kecil, dan terkadang sebagai petani sekadar membantu orang tua.</p>
+        <p>Saya familiar dengan teknologi berikut:</p>
+        <ul>
+          <li>
+            <span>Linux (Ubuntu based)</span>
+          </li>
+          <li>
+            <span>HTML</span>
+          </li>
+          <li>
+            <span>CSS (Tailwind, Bootstrap, Bulma)</span>
+          </li>
+          <li>
+            <span>Python (Django, Odoo)</span>
+          </li>
+          <li>
+            <span>JavaScript (Frontend/Backend)</span>
+          </li>
+          <li>
+            <span>PostgreSQL</span>
+          </li>
+          <li>
+            <span>MySQL</span>
+          </li>
+          <li>
+            <span>Docker</span>
+          </li>
+        </ul>
+        <p>Salah satu motivasi belajar saya berasal dari kutipan tokoh ini:</p>
+        <blockquote>
+          <p>I have no special talent. I am only passionately curious.</p>
+          <footer>
+            <cite>Albert Einstein</cite>
+          </footer>
+        </blockquote>
+      </article>
     </aside>
   </main>
-  <aside id="profile">
-    <div id="identity" class="container">
-      <img src="assets/images/foto.jpg" alt="Foto Profil">
-      <ul>
-        <li>
-          <strong>Madyan Eka Septian</strong>
-        </li>
-        <li>
-          <em><small>Full-stack Website Developer</small></em>
-        </li>
-      </ul>
-    </div>
-    <div id="words" class="container">
-      <p>Assalamu'alaikum warohmatullohi wabarokatuh.</p>
-      <p>Halo, semuanya! Namaku Madyan, bisa dipanggil Ian, saat ini sedang berusaha menjadi seorang Full-stack Website Developer, disamping pekerjaanku sebagai penjaga toko kecil, dan terkadang sebagai petani sekadar membantu orang tua.</p>
-      <p>Saya familiar dengan teknologi berikut:</p>
-      <ul>
-        <li>
-          <span>Linux (Ubuntu based)</span>
-        </li>
-        <li>
-          <span>HTML</span>
-        </li>
-        <li>
-          <span>CSS (Tailwind, Bootstrap, Bulma)</span>
-        </li>
-        <li>
-          <span>Python (Django, Odoo)</span>
-        </li>
-        <li>
-          <span>JavaScript (Frontend/Backend)</span>
-        </li>
-        <li>
-          <span>PostgreSQL</span>
-        </li>
-        <li>
-          <span>MySQL</span>
-        </li>
-        <li>
-          <span>Docker</span>
-        </li>
-      </ul>
-      <p>Salah satu motivasi belajar saya berasal dari kutipan tokoh ini:</p>
-      <blockquote>
-        <p>I have no special talent. I am only passionately curious.</p>
-        <footer>
-          <cite>Albert Einstein</cite>
-        </footer>
-      </blockquote>
-    </div>
-  </aside>
   <section id="service">
     <div id="company-profile" class="container">
-      <h3>Pembuatan Website Profil</h3>
+      <h1>Pembuatan Website Profil</h1>
       <hr />
       <div class="content">
         <p>Pada zaman ini, banyak informasi dapat diakses dengan mudah melalui perantara internet.</p>
@@ -153,7 +147,7 @@
       </div>
     </div>
     <div id="webapp" class="container">
-      <h3>Pembuatan Website Aplikasi</h3>
+      <h1>Pembuatan Website Aplikasi</h1>
       <hr />
       <div class="content">
         <p>Website jenis aplikasi, memiliki kelebihan jika dibandingkan dengan website statis seperti profil perusahaan.</p>

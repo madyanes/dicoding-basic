@@ -35,6 +35,11 @@ header {
   box-shadow: 0px 0px 1px 1px;
 }
 
+.header {
+  background-color: #F4EAD5 !important;
+  box-shadow: 0px 0px 1px 1px;
+}
+
 #site-title {
   font-size: 5vh;
 }
@@ -64,16 +69,18 @@ nav li::after {
 }
 
 main {
+  width: 100%;
   margin: 1em 0;
   display: flex;
   gap: 1em;
+  flex-wrap: wrap;
 }
 
 main #content {
   background-color: #FFFBE9;
   box-shadow: 0px 0px 2px 1px;
   padding: 10px;
-  width: 70%;
+  flex-basis: 70%;
 }
 
 main #content p {
@@ -93,8 +100,8 @@ main #content p:last-child {
   text-align: right;
 }
 
-main aside {
-  width: 30%;
+main aside#latest {
+  flex-basis: 28%;
   align-self: flex-start;
 }
 
@@ -155,8 +162,7 @@ article p {
   background-color: #DAE2B6;
 }
 
-#profile #identity ul {
-  list-style-type: none;
+#profile #identity p {
   text-align: center;
 }
 
@@ -213,6 +219,10 @@ blockquote p {
   margin-top: 1em;
   display: flex;
   gap: 1em;
+}
+
+#service h1 {
+  font-size: large;
 }
 
 #service > div {
@@ -278,6 +288,20 @@ footer {
   cursor: pointer;
 }
 
+@media screen and (max-width: 1014px) {
+  main {
+    flex-direction: column;
+  }
+
+  main > aside {
+    width: 100%;
+  }
+
+  #profile {
+    flex-direction: column;
+  }
+}
+
 @media screen and (max-width: 700px) {
   body {
     width: 95%;
@@ -295,7 +319,6 @@ footer {
 
   main #content {
     width: 100%;
-    order: 100;
   }
 
   main > aside {
@@ -308,6 +331,10 @@ footer {
 
   #profile {
     flex-direction: column;
+  }
+
+  #service h1 {
+    font-size: 1em;
   }
 
   #service {
