@@ -183,7 +183,7 @@ blockquote {
   quotes: "\201C""\201D""\2018""\2019";
 }
 
-blockquote:before {
+blockquote::before {
   color: #ccc;
   content: open-quote;
   font-size: 4em;
