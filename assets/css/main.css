@@ -80,6 +80,7 @@ main #content p {
   padding-top: 0.5em;
   line-height: 2em;
   font-size: medium;
+  text-indent: 4em;
 }
 
 main aside {
