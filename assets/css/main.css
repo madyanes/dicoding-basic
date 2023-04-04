@@ -202,6 +202,11 @@ blockquote p {
   gap: 1em;
 }
 
+#service p {
+  text-align: left;
+  margin-bottom: 1em;
+}
+
 #service img {
   width: 70%;
   box-shadow: 0px 0px 1px 1px;
@@ -214,9 +219,15 @@ blockquote p {
   text-align: center;
 }
 
-/* #service div .content {
-  background-color: aqua;
-} */
+a.button {
+  text-decoration: none;
+}
+
+a.button div {
+  padding: 10px;
+  border-radius: 25px;
+  background-color: #F4EAD5 !important;
+}
 
 footer {
   background-color: #F4EAD5;
@@ -254,5 +265,9 @@ footer {
 
   #profile {
     flex-direction: column;
+  }
+
+  #service {
+    font-size: 0.8em;
   }
 }
