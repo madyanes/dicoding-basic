@@ -158,6 +158,8 @@ article p {
 #profile #words {
   flex-basis: 60%;
   background-color: #DAE2B6;
+  line-height: 1.5em;
+  font-size: medium;
 }
 
 #profile #words p {
